@@ -1,36 +1,91 @@
 # Rosé & Co.
 
-A modern interactive café website with a chrome-inspired aesthetic, soft rose tones, warm cocoa accents, specialty coffee, and handmade desserts.
+A modern coffee house website built with React, TanStack Start, Vite, and Tailwind CSS.
+
+**Live Demo:** https://loquacious-lebkuchen-463173.netlify.app/
 
 ## Features
 
-- **Hero** — interactive 3D tilt effect, metallic light reflections, live opening-hours badge based on Istanbul time.
-- **Interactive Menu** — category tabs, instant search, and pickup ordering.
-- **Build Your Coffee** — customize size, espresso shots, milk, syrup, and extras with a live cup preview and dynamic pricing.
-- **Our Space** — interactive photo gallery with opening hours.
-- **Reservations** — reservation form with date, time, guest count, and seating area selection using Netlify Forms.
-- **Pickup Orders** — shopping cart drawer for submitting pickup orders through Netlify Forms.
+* Responsive coffee house landing page
+* Interactive menu
+* Coffee builder
+* Shopping cart
+* Reservation section
+* Venue information
+* Smooth reveal animations
+* Modern typography and visual design
+* Server-side rendering with TanStack Start
 
 ## Tech Stack
 
-- React 19
-- TanStack Start
-- TanStack Router
-- Tailwind CSS 4
-- Vite
-- Netlify Forms
-- Lucide React
-- TypeScript
+* React
+* TypeScript
+* TanStack Start
+* TanStack Router
+* Vite
+* Tailwind CSS
+* Lucide React
+
+## Getting Started
+
+### Requirements
+
+* Node.js
+* npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/codebyceren/rose-and-co.git
+cd rose-and-co
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open:
+
+```text
+http://localhost:3000
+```
+
+## Build
+
+To create a production build:
+
+```bash
+npm run build
+```
 
 ## Project Structure
 
 ```text
 src/
 ├── components/
-├── data/
 ├── lib/
 ├── routes/
-└── styles.css
+├── styles.css
+├── router.tsx
+└── routeTree.gen.ts
 
 public/
-└── img/
+```
+
+## Deployment
+
+The project is configured for deployment on Netlify using the TanStack Start Netlify Vite plugin.
+
+## License
+
+This project is for portfolio and educational purposes.
