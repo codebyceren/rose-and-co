@@ -18,6 +18,6 @@ export default defineConfig({
     tailwindcss(),
     tanstackStart(),
     viteReact(),
-    netlify(),
+    ...(process.env.NODE_ENV === 'production' ? [netlify()] : []),
   ],
 })
